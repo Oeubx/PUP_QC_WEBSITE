@@ -1,0 +1,154 @@
+/* HOME CSS CHECKED */
+
+h2 {
+    color: maroon;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.BLEFT, .BRIGHT {
+    position: relative;
+}
+
+.learn-more-button:hover {
+    background-color: maroon;
+}
+
+.maincontainer {
+    padding: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 0;
+    padding-bottom: 20px;
+}
+
+.maintext {
+    padding: 2rem;
+    height: 80%;
+}
+
+.subimg img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.BlockContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.learn-more-button {
+    margin-top: 10px;
+    display: block;
+    padding: 8px 25px;
+    position: absolute;
+    left: 40%;
+    bottom: 13%;
+}
+
+.BLEFT .p {
+    color: #5c5c5c;
+}
+
+.BLEFT, .BRIGHT {
+    width: 500px;
+    height: 250px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.map-container iframe {
+    width: 75%;
+    height: 450px;
+    border: 0;
+}
+
+.BBlockContainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.firstB, .secondB {
+    width: 500px;
+    height: 250px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    position: relative;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+    .maincontainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .maintext{
+        width: 80%;
+    }
+
+    .BlockContainer, .BBlockContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BLEFT, .BRIGHT, .firstB, .secondB {
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+        padding-bottom: 50px;
+    }
+
+    .learn-more-button {
+        margin-top: 10px;
+        display: block;
+        padding: 8px 25px;
+        position: absolute;
+        left: 39%;
+        bottom: 7%;
+    }
+
+    .subimg img {
+        width: 75%;
+        border-radius: 5px;
+
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.learn-more-button {
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: #fff;
+    border: 2px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
